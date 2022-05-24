@@ -32,11 +32,11 @@ h2 {
 
 a {
     text-decoration: none;
-    color: black;
+    color: rgba(219, 17, 17, 0.637);
 }
 
-a :hover {
-    color: blue;
+ a:hover {
+    color: black;
 }
 
 
