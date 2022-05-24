@@ -1,2 +1,50 @@
 @charset "UTF-8";
 
+* {
+    margin: 0px;
+    text-align: center;
+}
+
+header {
+    padding: 3px;
+    background-color: rgba(219, 17, 17, 0.637);
+}
+
+main {
+    background-color: white;
+    padding: 5em;
+}
+
+footer {
+    background-color: rgba(219, 17, 17, 0.637) ;
+    padding: 20px;
+    
+}
+
+p {
+    padding: 6px;
+}
+
+
+h2 {
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a :hover {
+    color: blue;
+}
+
+
+
+body {
+    background-color: rgba(255, 0, 0, 0.63);
+    padding-top: 5em;
+    padding-right: 25em;
+    padding-bottom: 5em;
+    padding-left: 25em;
+}
