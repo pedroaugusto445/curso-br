@@ -1,6 +1,10 @@
 @charset "UTF-8";
 
-* {
+@import url('https://fonts.googleapis.com/css2?family=Urbanist&display=swap');
+
+
+
+*  {
     margin: 0px;
     text-align: center;
 }
@@ -10,15 +14,20 @@ header {
     background-color: #E30800;
 }
 
+h1 {
+    font-family: 'Urbanist', sans-serif;
+    font-size: 2em;
+}
+
 main {
     background-color: white;
     padding: 5em;
 }
 
 footer {
-    background-color: rgba(219, 17, 17, 0.637) ;
+    background-color: #E30800;
     padding: 20px;
-    
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.562)
 }
 
 p {
@@ -32,10 +41,10 @@ h2 {
 
 a {
     text-decoration: none;
-    color:#d60700;
+    color: #d60700;
 }
 
- a:hover {
+a:hover {
     color: black;
 }
 
