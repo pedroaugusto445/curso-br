@@ -71,6 +71,13 @@ html, body {
         padding: 5px;
         background-color: rgb(26, 25, 25);
     }
+    section#img1 {
+        background-image: url('../items/imagens/background001.jpg');
+    }
+
+    section#img2 {
+
+    }
 
     footer {
         background-color: black;
