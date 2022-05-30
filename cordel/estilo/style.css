@@ -64,19 +64,26 @@ html, body {
     section.imagem {
         background-color: rgb(29, 29, 29);
         color: white;
+        box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.658);
+        background-size: cover;
+        background-attachment: fixed;
     }
 
     section.imagem > p {
         display: inline-block;
         padding: 5px;
         background-color: rgb(26, 25, 25);
+        text-shadow: 2px 2px 0px black;
+        background-size: cover;
+
     }
     section#img1 {
         background-image: url('../items/imagens/background001.jpg');
+        background-position: right center;
     }
 
     section#img2 {
-
+        background-image: url('../items/imagens/background002.jpg');
     }
 
     footer {
