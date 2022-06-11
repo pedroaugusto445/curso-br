@@ -1,12 +1,7 @@
-
-var pais = 'canada'
-
-console.log(`voce e do ${pais}`)
-
-if (pais == 'brasil') {
-    console.log('ola meu amigo')
-}
-
-else {
-    console.log('seu bobao')
+var pais = 'eua' 
+console.log(`eu moro no ${pais}`)
+if (pais == 'brasil' ) {
+    console.log('voce e br')
+} else {
+    console.log('e gringo')
 }

@@ -7,23 +7,20 @@
     <title>voce e br</title>
 </head>
 <body>
-    <h1>descupra se voce e br</h1>
-    <input type="text" id="pais">
-    <input type="button" value="cal" id="cal" onclick="calcular()">
+    <h1>sistemas de muta</h1>
+    <input type="number" name="mumero um" id="txtvel">
+    <input type="button" value="verificar" onclick="calcular()">
     <div id="res">
 
     </div>
-
     <script>
-        var paistxtv = window.document.getElementById('pais') 
 
         function calcular() {
-            var cal = window.Document.getElementById('paistxtv')
-            s = paistxtv == 'brasil'
+            var txtv = window.document.getElementById('txtvel')
             var res = window.document.getElementById('res')
-            res.innerHTML = 'voce e br'
+            var vel = Number (txtv.value) 
 
-
+            res.innerHTML =  `sua velocidade e de ${vel}`
         }
     </script>
 </body>
