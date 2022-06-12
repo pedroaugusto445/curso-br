@@ -1,0 +1,22 @@
+ @charset "UTF-8";
+
+ body {
+    background-color: blue;
+    text-align: center;
+ }
+
+ header {
+
+ }
+
+ section {
+    background-color: white;
+    width: 600px;
+    height: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.453);
+ }
+
+ footer {
+
+ }
