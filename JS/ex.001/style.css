@@ -17,6 +17,12 @@
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.453);
  }
 
+ img {
+   width: 150px;
+   height: 150;
+   border-radius: 80%;
+ }
+
  footer {
 
  }
