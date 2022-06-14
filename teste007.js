@@ -1,7 +1,6 @@
-var c = 1
-    do {
-    console.log('tudo bem')
-    c++
-} while (c < 6) {
-    console.log(`pasos ${c}`)
+var c = 0
+console.log('vai começãr')
+for (c=0; c <= 50;c++) {
+    console.log(c)
 }
+console.log('fim')
