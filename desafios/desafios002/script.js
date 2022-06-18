@@ -6,11 +6,13 @@ function tabuada() {
         window.alert('seus dados estao errados escreva a tabuada ')
     } else {
         let n = Number(nu.value)  
-        for (let c ;c = n; c <= tab) {
-            let item = window.document.createElement('option')
-            item.text = `${n} x ${c} = ${n*c }`
+        let c = 1
+        while (c <= 10) {
+            let item = document.createElement('option')
+            item.text = `${n} x ${c} = ${n*c}`
             tab.appendChild(item)
             c++
+
         }
 
     }
