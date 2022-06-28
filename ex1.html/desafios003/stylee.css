@@ -1,0 +1,21 @@
+@keyframes animacao {
+    from {background-color: purple;} 
+    to {background-color: yellow;}
+}
+
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    background-color: red;
+    
+}
+
+#container{
+    width: 500px;
+    height: 500px;
+    background-color: purple;
+    animation-name: animacao;
+    animation-duration: 2s;
+}
